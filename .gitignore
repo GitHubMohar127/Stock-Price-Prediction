@@ -9,8 +9,8 @@ __pycache__/
 # data/
 # *.csv
 
-# Models
-*.pkl
+# # Models
+# *.pkl
 
 # Environment
 .env
