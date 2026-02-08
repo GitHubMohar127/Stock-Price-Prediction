@@ -5,9 +5,9 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-data/
-*.csv
+# # Data
+# data/
+# *.csv
 
 # Models
 *.pkl
