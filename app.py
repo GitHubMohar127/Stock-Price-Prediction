@@ -2,11 +2,14 @@ import streamlit as st
 import pandas as pd
 import joblib
 import plotly.graph_objects as go
-from config import STOCK_SYMBOLS
+# from config import STOCK_SYMBOLS
 
 st.set_page_config(page_title="Stock Price Prediction", layout="wide")
 
 st.title("📈 Real-Time Stock Price Prediction")
+
+# ---- STOCK LIST (Option 3) ----
+STOCK_SYMBOLS = ["AAPL", "MSFT", "GOOGL"]
 
 # Sidebar
 st.sidebar.header("Select Stock")
