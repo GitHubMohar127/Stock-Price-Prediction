@@ -9,7 +9,7 @@ st.set_page_config(page_title="Stock Price Prediction", layout="wide")
 st.title("📈 Real-Time Stock Price Prediction")
 
 # ---- STOCK LIST (Option 3) ----
-STOCK_SYMBOLS = ["AAPL", "MSFT", "GOOGL"]
+STOCK_SYMBOLS = ["AAPL", "INFY", "TSLA"]
 
 # Sidebar
 st.sidebar.header("Select Stock")
